@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.uk-position-relative.uk-visible-toggle.uk-light.uk-slider.uk-slider-container {
+    max-height: 400px !important;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    padding: 15px;
+    width: 20%;
+    margin-top: 20px;
+}
